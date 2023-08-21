@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>summer-sale-website</title>
+    <title>summer-sale</title>
 
     <!-- taiwind and daisyui link start  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
@@ -74,28 +74,27 @@
                 <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
                     <!-- first card start  -->
                     <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
-                        <figure id="first_img_click" class="px-6 pt-8">
-                            <img src="/images/prod1.png" alt="Shoes"
+                        <figure class="px-6 pt-8">
+                            <img src="./images/prod1.png"
                                 class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                         </figure>
                         <div class="rating flex justify-center mt-8">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-xl font-bold font_family text-[#111]"><span id="first_card_name">K. Accessories</span></h2>
-                            <p class="text-xl font-normal font_family text-text_rgba_color "> <span id="first_card_tk">39.00</span> tk</p>
+                            <h2 class="card-title text-xl font-bold font_family text-[#111]">K. Accessories</h2>
+                            <p class="text-xl font-normal font_family text-text_rgba_color ">39.00 tk</p>
                         </div>
                     </div>
                     <!-- first card end  -->
                     <!-- second card start  -->
                     <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
-                        <figure id="second_img_click" class="px-6 pt-8">
-                            <img src="/images/prod2.png" alt="Shoes"
-                                class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                        <figure class="px-6 pt-8">
+                            <img src="./images/prod2.png" alt="card-img" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                         </figure>
                         <div class="rating flex justify-center mt-8">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -105,16 +104,15 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-xl font-bold font_family text-[#111]"><span id="second_card_name">K. Accessories</span></h2>
-                            <p class="text-xl font-normal font_family text-text_rgba_color "><span id="second_card_tk">25.00</span> tk</p>
+                            <h2 class="card-title text-xl font-bold font_family text-[#111]">K. Accessories</h2>
+                            <p class="text-xl font-normal font_family text-text_rgba_color ">25.00 tk</p>
                         </div>
                     </div>
                     <!-- second card end  -->
                     <!-- third card start  -->
-                     <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
-                        <figure id="third_img_click" class="px-6 pt-8">
-                            <img src="/images/prod3.png" alt="Shoes"
-                                class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                    <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
+                        <figure class="px-6 pt-8">
+                            <img src="./images/prod3.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                         </figure>
                         <div class="rating flex justify-center mt-8">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -124,8 +122,8 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-xl font-bold font_family text-[#111]"><span id="third_card_name">Home Cooker</span></h2>
-                            <p class="text-xl font-normal font_family text-text_rgba_color "><span id="third_card_tk">49.00</span> tk</p>
+                            <h2 class="card-title text-xl font-bold font_family text-[#111]">Home Cooker</h2>
+                            <p class="text-xl font-normal font_family text-text_rgba_color ">49.00 tk</p>
                         </div>
                     </div>
                     <!-- third card end  -->
@@ -140,8 +138,7 @@
                         <!-- four card start  -->
                         <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
-                                <img src="/images/prod4.png" alt="Shoes"
-                                    class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                                <img src="./images/prod4.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                             </figure>
                             <div class="rating flex justify-center mt-8">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -159,8 +156,7 @@
                         <!-- fifth card start  -->
                         <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
-                                <img src="/images/prod5.png" alt="Shoes"
-                                    class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                                <img src="./images/prod5.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                             </figure>
                             <div class="rating flex justify-center mt-8">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -178,8 +174,7 @@
                         <!-- six card start  -->
                         <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
-                                <img src="/images/prod6.png" alt="Shoes"
-                                    class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                                <img src="./images/prod6.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                             </figure>
                             <div class="rating flex justify-center mt-8">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -207,8 +202,7 @@
                         <!-- seven card start  -->
                         <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
-                                <img src="/images/prod7.png" alt="Shoes"
-                                    class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                                <img src="./images/prod7.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                             </figure>
                             <div class="rating flex justify-center mt-8">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -226,8 +220,7 @@
                         <!-- eight card start  -->
                         <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
-                                <img src="/images/prod8.png"
-                                    class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                                <img src="./images/prod8.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                             </figure>
                             <div class="rating flex justify-center mt-8">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -245,8 +238,7 @@
                         <!-- nine card start  -->
                         <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
-                                <img src="/images/prod9.png"
-                                    class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
+                                <img src="./images/prod9.png" class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                             </figure>
                             <div class="rating flex justify-center mt-8">
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -270,9 +262,11 @@
                 <div class="bg-white p-8 mt-20 ml-5 rounded-lg">
                     <h1 class="text-2xl font-medium font_family mb-5 text-[#111]">Have coupon?</h1>
                     <div>
-                        <input id="apply_input_value" class="border px-2 py-3 rounded-l-lg" type="text" placeholder="coupon code">
+                        <input id="apply_input_value" class="border px-2 py-3 rounded-l-lg w-40" type="text"
+                            placeholder="coupon code">
                         <button id="apply_btn"
-                        class="bg-primary_btn_bg disabled:bg-slate-200 px-5 py-3 ml-[-5px]     rounded-r-lg md:rounded-r-lg lg:rounded-r-lg text-white text-xl font-semibold font_family mt-3 md:mt-3 lg:mt-0 " disabled>Apply</button>
+                            class="bg-primary_btn_bg disabled:bg-slate-200 px-2 py-4 ml-[-5px]  rounded-r-lg md:rounded-r-lg lg:rounded-r-lg text-white text-sm font-semibold font_family mt-3 md:mt-3 lg:mt-0 "
+                            disabled>Apply</button>
                         <p id="coupon_field" class="hidden text-red-700 mt-2"> please enter correct coupon...</p>
                     </div>
                 </div>
@@ -286,17 +280,24 @@
                     <!-- The button to open modal -->
                     <div>
                         <div>
-                            <a href="#my_modal_8"><button id="purchase_btn" class="bg-primary_btn_bg px-5 py-5 rounded-lg text-white text-2xl text-center font-bold font_family w-full mt-5 disabled:bg-slate-300" disabled>Make Purchase</button></a>
+                            <a href="#my_modal_8"><button id="purchase_btn"
+                                    class="bg-primary_btn_bg px-5 py-5 rounded-lg text-white text-2xl text-center font-bold font_family w-full mt-5 disabled:bg-slate-300"
+                                    disabled>Make Purchase</button></a>
                         </div>
                         <div class="modal" id="my_modal_8">
                             <div class="modal-box py-2 lg:py-16">
                                 <div class="flex justify-center items-center">
-                                    <img src="images/congo.png" >
+                                    <img src="images/congo.png">
                                 </div>
-                                <p class="text-center text-xl md:text-2xl lg:text-5xl font-bold text-[#111] font_family  my-1 lg:my-3">Congratulations</p>
-                                <p class="text-xl font-normal text-text_rgba_color text-center mb-3 lg:mb-10">Your Purchase the product</p>
+                                <p
+                                    class="text-center text-xl md:text-2xl lg:text-5xl font-bold text-[#111] font_family  my-1 lg:my-3">
+                                    Congratulations</p>
+                                <p class="text-xl font-normal text-text_rgba_color text-center mb-3 lg:mb-10">Your
+                                    Purchase the product</p>
                                 <div class="flex justify-center items-center">
-                                    <a href="#index.html" class="px-8 py-3 bg-primary_btn_bg rounded-lg text-white text-xl text-center font-semibold font_family ">Go Home</a>
+                                    <a href="" onclick="window.location.reload()"
+                                        class="px-8 py-3 bg-primary_btn_bg rounded-lg text-white text-xl text-center font-semibold font_family ">Go
+                                        Home</a>
                                 </div>
                             </div>
                         </div>
@@ -310,4 +311,5 @@
     <script src="js/card.js"></script>
     <!-- js link end -->
 </body>
+
 </html>
