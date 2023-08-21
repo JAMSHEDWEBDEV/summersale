@@ -73,27 +73,27 @@
                     Kitchenware</h1>
                 <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
                     <!-- first card start  -->
-                    <div class="card bg-base-100 shadow-xl">
-                        <figure class="px-6 pt-8">
+                    <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
+                        <figure id="first_img_click" class="px-6 pt-8">
                             <img src="/images/prod1.png" alt="Shoes"
                                 class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                         </figure>
                         <div class="rating flex justify-center mt-8">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-xl font-bold font_family text-[#111]">K. Accessories</h2>
-                            <p class="text-xl font-normal font_family text-text_rgba_color ">39.00 tk</p>
+                            <h2 class="card-title text-xl font-bold font_family text-[#111]"><span id="first_card_name">K. Accessories</span></h2>
+                            <p class="text-xl font-normal font_family text-text_rgba_color "> <span id="first_card_tk">39.00</span> tk</p>
                         </div>
                     </div>
                     <!-- first card end  -->
                     <!-- second card start  -->
-                    <div class="card bg-base-100 shadow-xl">
-                        <figure class="px-6 pt-8">
+                    <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
+                        <figure id="second_img_click" class="px-6 pt-8">
                             <img src="/images/prod2.png" alt="Shoes"
                                 class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                         </figure>
@@ -105,14 +105,14 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-xl font-bold font_family text-[#111]">K. Accessories</h2>
-                            <p class="text-xl font-normal font_family text-text_rgba_color ">25.00 tk</p>
+                            <h2 class="card-title text-xl font-bold font_family text-[#111]"><span id="second_card_name">K. Accessories</span></h2>
+                            <p class="text-xl font-normal font_family text-text_rgba_color "><span id="second_card_tk">25.00</span> tk</p>
                         </div>
                     </div>
                     <!-- second card end  -->
                     <!-- third card start  -->
-                    <div class="card bg-base-100 shadow-xl">
-                        <figure class="px-6 pt-8">
+                     <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
+                        <figure id="third_img_click" class="px-6 pt-8">
                             <img src="/images/prod3.png" alt="Shoes"
                                 class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
                         </figure>
@@ -124,8 +124,8 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title text-xl font-bold font_family text-[#111]">Home Cooker</h2>
-                            <p class="text-xl font-normal font_family text-text_rgba_color ">49.00 tk</p>
+                            <h2 class="card-title text-xl font-bold font_family text-[#111]"><span id="third_card_name">Home Cooker</span></h2>
+                            <p class="text-xl font-normal font_family text-text_rgba_color "><span id="third_card_tk">49.00</span> tk</p>
                         </div>
                     </div>
                     <!-- third card end  -->
@@ -138,7 +138,7 @@
                         Sportswear</h1>
                     <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
                         <!-- four card start  -->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
                                 <img src="/images/prod4.png" alt="Shoes"
                                     class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
@@ -157,7 +157,7 @@
                         </div>
                         <!-- four card end  -->
                         <!-- fifth card start  -->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
                                 <img src="/images/prod5.png" alt="Shoes"
                                     class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
@@ -176,7 +176,7 @@
                         </div>
                         <!-- fifth card end  -->
                         <!-- six card start  -->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
                                 <img src="/images/prod6.png" alt="Shoes"
                                     class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
@@ -205,7 +205,7 @@
                         Furniture</h1>
                     <div class="grid gap-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
                         <!-- seven card start  -->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
                                 <img src="/images/prod7.png" alt="Shoes"
                                     class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
@@ -224,7 +224,7 @@
                         </div>
                         <!-- seven card end  -->
                         <!-- eight card start  -->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
                                 <img src="/images/prod8.png"
                                     class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
@@ -243,7 +243,7 @@
                         </div>
                         <!-- eight card end  -->
                         <!-- nine card start  -->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div onclick="getCardPrice(this)" class="card bg-base-100 shadow-xl">
                             <figure class="px-6 pt-8">
                                 <img src="/images/prod9.png"
                                     class="rounded-xl bg-img_bg_color px-20 md:px-28 lg:px-28 py-10 h-[200px]" />
@@ -270,22 +270,23 @@
                 <div class="bg-white p-8 mt-20 ml-5 rounded-lg">
                     <h1 class="text-2xl font-medium font_family mb-5 text-[#111]">Have coupon?</h1>
                     <div>
-                        <input class="border px-2 py-3 rounded-l-lg  " type="text" placeholder="coupon code">
-                        <button
-                            class="bg-primary_btn_bg px-5 py-3 ml-[-5px]     rounded-lg md:rounded-r-lg lg:rounded-r-lg text-white text-xl font-semibold font_family mt-3 md:mt-3 lg:mt-0">Apply</button>
+                        <input id="apply_input_value" class="border px-2 py-3 rounded-l-lg" type="text" placeholder="coupon code">
+                        <button id="apply_btn"
+                        class="bg-primary_btn_bg disabled:bg-slate-200 px-5 py-3 ml-[-5px]     rounded-r-lg md:rounded-r-lg lg:rounded-r-lg text-white text-xl font-semibold font_family mt-3 md:mt-3 lg:mt-0 " disabled>Apply</button>
+                        <p id="coupon_field" class="hidden text-red-700 mt-2"> please enter correct coupon...</p>
                     </div>
                 </div>
                 <div class="bg-white p-8 mt-20 ml-5 text-2xl font-medium text-[#111] rounded-lg">
-                    <p>1.Jamshed</p>
+                    <p id="product_entry_area"></p>
                     <hr class="my-5">
-                    <p class="mb-3">Total Price :</p>
-                    <p class="mb-3">Discount :</p>
-                    <p class="mb-3">Total :</p>
+                    <p class="mb-3">Total Price : <span id="Total_price"></span></p>
+                    <p class="mb-3">Discount : <span id="discount_price"></span> </p>
+                    <p class="mb-3">Total : <span id="net_total_balance"></span> </p>
                     <hr class="mt-16">
                     <!-- The button to open modal -->
                     <div>
-                        <div class="bg-primary_btn_bg px-5 py-5 rounded-lg text-white text-2xl text-center font-bold font_family w-full mt-5 ">
-                            <a href="#my_modal_8">Make Purchase</a>
+                        <div>
+                            <a href="#my_modal_8"><button id="purchase_btn" class="bg-primary_btn_bg px-5 py-5 rounded-lg text-white text-2xl text-center font-bold font_family w-full mt-5 disabled:bg-slate-300" disabled>Make Purchase</button></a>
                         </div>
                         <div class="modal" id="my_modal_8">
                             <div class="modal-box py-2 lg:py-16">
@@ -300,11 +301,13 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <button class="bg-primary_btn_bg px-5 py-5 rounded-lg text-white text-2xl font-bold font_family w-full mt-5 ">Make Purchase</button> -->
                 </div>
             </div>
         </section>
     </main>
-</body>
 
+    <!-- js link start  -->
+    <script src="js/card.js"></script>
+    <!-- js link end -->
+</body>
 </html>
